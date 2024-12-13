@@ -1,0 +1,190 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Body Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg,#ffffff 0%, #85e0ee 80%);
+}
+
+/* Heading Styles */
+.heading1, .heading2 {
+  color: #00bcd4; /* Cyan text */
+  background: linear-gradient(135deg, #01caf7 0%, #fafafa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Card Styles */
+.crd1, .crd2 {
+  background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+  color: #e0e0e0; /* Light grey text */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.crd1:hover, .crd2:hover {
+  background: linear-gradient(135deg, #121212 0%, #1e1e1e 100%);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Wrapper Styles */
+.wrapper {
+  width: 450px;
+  background: rgba(30, 30, 30, 0.9);
+  border: 2px solid #00bcd4;
+  backdrop-filter: blur(10px);
+  color: #e0e0e0; /* Light grey text */
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  color: #00bcd4; /* Cyan text */
+  margin-bottom: 20px;
+}
+
+/* Input Box Styles */
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: #2c2c2c;
+  border: 2px solid rgba(224, 224, 224, .3);
+  border-radius: 40px;
+  color: #e0e0e0; /* Light grey text */
+  padding: 10px 45px 10px 20px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-box input::placeholder {
+  color: #b0b0b0; /* Grey placeholder text */
+}
+
+.input-box input:focus {
+  border-color: #00bcd4; /* Cyan border on focus */
+}
+
+/* Icon Styles */
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #e0e0e0; /* Light grey icon */
+}
+
+/* Remember and Forgot Styles */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: 10px 0;
+  color: #e0e0e0; /* Light grey text */
+}
+
+.remember-forgot label input {
+  accent-color: #00bcd4; /* Cyan checkbox color */
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  color: #00bcd4; /* Cyan text */
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+  border: none;
+  border-radius: 40px;
+  color: #121212; /* Dark text */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.wrapper .btn:hover {
+  background: linear-gradient(135deg, #0097a7 0%, #00bcd4 100%);
+  transform: translateY(-3px);
+}
+
+/* Register Link Styles */
+.register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: #00bcd4; /* Cyan text */
+  text-decoration: none;
+  font-weight: 600;
+  transition: text-decoration 0.3s ease;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styles */
+.hdd {
+  margin: 80px;
+}
+
+.img2 {
+  height: 65vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.bg-custom {
+  background-color: #04c9db; /* Custom color */
+}
+.btnnn{
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+  border: none;
+  border-radius: 40px;
+  color: #121212; /* Dark text */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
